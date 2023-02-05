@@ -16,7 +16,7 @@ main {
 h1 {
     width: 100%;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 10px;
     border-top: solid gray 2px;
     border-bottom: solid gray 2px;
     text-align: center;
@@ -27,7 +27,7 @@ h1 {
 h2 {
     width: 60%;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 2px;
     border: solid gray 2px;
     text-align: center;
@@ -37,7 +37,7 @@ h3 {
     font-size: 30px;
     width: 60%;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 60px;
     border-bottom: solid gray 1px;
     border-top: solid gray 1px;
     text-align: center;
@@ -64,13 +64,13 @@ h3 {
 p {
     width: 60%;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 80px;
     margin-bottom: 20px;
     padding: 15px;
     border: solid gray 2px;
    
 }
-ul{
+ul {
     color : gray;
     width: 100%;
     margin: 0 auto;
@@ -83,6 +83,8 @@ ul{
     border-bottom: solid 4px;
     padding: 10px;
     border: solid gray 3px;
+    list-style-type: number;
+    color: black;
 }
 li{
     color: white;
@@ -92,7 +94,23 @@ li{
 }
 li:active{
     color: crimson;
+    list-style-type: number;
+    color: black;
 }
+ul:active{
+    color: crimson;
+    list-style-type: number;
+    color: black;
+}
+a:active {
+    color: black;
+    background-color: white;
+    list-style-type: number;
+    color: black;
+  }
+  a:visited {
+    color: gray;
+  }
 strong{
     font-weight: bold;
     font-size: 20px;
